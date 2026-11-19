@@ -86,14 +86,10 @@ class CarouselIndicator extends StatelessWidget {
 
 class _TabBar extends ExtendedTabBar {
   const _TabBar({
-    super.key,
     required super.tabs,
     required TabController super.controller,
     EdgeInsetsGeometry indicatorPadding = EdgeInsets.zero,
     super.indicator,
-    super.dragStartBehavior,
-    super.mouseCursor,
-    super.physics,
     this.size,
   }) : super(
           isScrollable: false,

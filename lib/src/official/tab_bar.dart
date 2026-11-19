@@ -677,55 +677,6 @@ class _TabBar extends StatefulWidget implements PreferredSizeWidget {
   })  : _isPrimary = true,
         assert(indicator != null || (indicatorWeight > 0.0));
 
-  /// Creates a Material Design secondary tab bar.
-  ///
-  /// Secondary tabs are used within a content area to further separate related
-  /// content and establish hierarchy.
-  ///
-  /// {@tool dartpad}
-  /// This sample showcases nested Material 3 [_TabBar]s. It consists of a primary
-  /// [_TabBar] with nested a secondary [_TabBar]. The primary [_TabBar] uses a
-  /// [DefaultTabController] while the secondary [_TabBar] uses a [TabController].
-  ///
-  /// ** See code in examples/api/lib/material/tabs/tab_bar.2.dart **
-  /// {@end-tool}
-  ///
-  /// See also:
-  ///
-  ///  * [_TabBar], for a primary tab bar.
-  ///  * [TabBarView], which displays page views that correspond to each tab.
-  ///  * [TabController], which coordinates tab selection between a [_TabBar] and a [TabBarView].
-  ///  * https://m3.material.io/components/tab-bar/overview, the Material 3
-  ///     tab bar specification.
-  const _TabBar.secondary({
-    super.key,
-    required this.tabs,
-    this.controller,
-    this.isScrollable = false,
-    this.padding,
-    this.indicatorColor,
-    this.automaticIndicatorColorAdjustment = true,
-    this.indicatorWeight = 2.0,
-    this.indicatorPadding = EdgeInsets.zero,
-    this.indicator,
-    this.indicatorSize,
-    this.dividerColor,
-    this.labelColor,
-    this.labelStyle,
-    this.labelPadding,
-    this.unselectedLabelColor,
-    this.unselectedLabelStyle,
-    this.dragStartBehavior = DragStartBehavior.start,
-    this.overlayColor,
-    this.mouseCursor,
-    this.enableFeedback,
-    this.onTap,
-    this.physics,
-    this.splashFactory,
-    this.splashBorderRadius,
-  })  : _isPrimary = false,
-        assert(indicator != null || (indicatorWeight > 0.0));
-
   /// Typically a list of two or more [_Tab] widgets.
   ///
   /// The length of this list must match the [controller]'s [TabController.length]

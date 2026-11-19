@@ -151,7 +151,6 @@ class _UnderlinePainter extends BoxPainter {
       case Axis.vertical:
         canvas.drawLine(indicator.topRight, indicator.bottomRight, paint);
         break;
-      default:
     }
   }
 }

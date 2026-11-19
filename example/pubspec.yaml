@@ -16,7 +16,7 @@ dependencies:
   collection: any
   cupertino_icons: ^1.0.2
   ff_annotation_route_library: ^3.0.0
-  material_ui: ^1.8.0
+  material_ui: ^1.11.1
 
 dev_dependencies:
   flutter_lints: any

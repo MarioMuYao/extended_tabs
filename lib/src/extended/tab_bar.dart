@@ -569,7 +569,6 @@ class _ExtendedTabLabelBar extends _TabLabelBar {
 
 class _ExtendedTabLabelBarRenderer extends RenderFlex {
   _ExtendedTabLabelBarRenderer({
-    super.children,
     required super.direction,
     required super.mainAxisSize,
     required super.mainAxisAlignment,
